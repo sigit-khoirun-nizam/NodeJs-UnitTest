@@ -1,0 +1,23 @@
+{
+  "name": "nodejsunittestpzn",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS Unit Test",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Sigit Khoirun Nizam",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.0",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  }
+}
